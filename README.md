@@ -1,4 +1,4 @@
-#Video Summarizer AI Agent#
+## Video Summarizer AI Agent
 
 🎥 Video Summarizer AI Agent is a multimodal AI-powered tool that provides detailed insights and context-based analysis of video content. This application is powered by Phidata's AI Agent framework and Google's Gemini 2.0 Flash Exp model, making it a robust solution for video summarization and query-based analysis.
 
@@ -67,31 +67,32 @@ Pip (Python package manager)
 Steps
 
 Clone the Repository
-
+"""
 git clone https://github.com/sanjayram2134/Video-Summarizer.git
 cd Video-Summarizer
+"""
 
 Set Up Virtual Environment
-
+"""
 python -m venv myenv
 source myenv/bin/activate  # On Windows: myenv\Scripts\activate
-
+"""
 Install Dependencies
-
+"""
 pip install -r requirements.txt
-
+"""
 Set Up API Keys
 
 Create a .env file in the project root.
 
 Add your Google API key:
-
+"""
 GOOGLE_API_KEY=your_api_key_here
-
+"""
 Run the Application
-
+"""
 streamlit run summarizer.py
-
+"""
 Access the App
 
 Open your browser and navigate to http://localhost:8501.
